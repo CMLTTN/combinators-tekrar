@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+.box p {
+
+    color: red;
+}
+.box > p {
+
+  color: blue;  
+}
+.box > h1,  {
+
+  color: purple;  
+}
+
+.box ~ p{
+   color: green; 
+}
+.box + p {
+    color: crimson;
+}
